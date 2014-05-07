@@ -4,41 +4,49 @@
             <li class="name">Throttle</li>
             <li class="meter"><meter min="800" max="2200"></meter></li>
             <li class="value"></li>
+			<li class="channel"></li>
         </ul>
         <ul style="color: #C0D800">
             <li class="name">Pitch</li>
             <li class="meter"><meter min="800" max="2200"></meter></li>
             <li class="value"></li>
+			<li class="channel"></li>
         </ul>
         <ul style="color: #CB4B4B">
             <li class="name">Roll</li>
             <li class="meter"><meter min="800" max="2200"></meter></li>
             <li class="value"></li>
+			<li class="channel"></li>
         </ul>
         <ul style="color: #4DA74D">
             <li class="name">Yaw</li>
             <li class="meter"><meter min="800" max="2200"></meter></li>
             <li class="value"></li>
+			<li class="channel"></li>
         </ul>
         <ul style="color: #9440ED">
             <li class="name"">AUX1</li>
             <li class="meter"><meter min="800" max="2200"></meter></li>
             <li class="value"></li>
+			<li class="channel"></li>
         </ul>
         <ul style="color: #45147a">
             <li class="name">AUX2</li>
             <li class="meter"><meter min="800" max="2200"></meter></li>
             <li class="value"></li>
+			<li class="channel"></li>
         </ul>
         <ul style="color: #cf7a26">
             <li class="name">AUX3</li>
             <li class="meter"><meter min="800" max="2200"></meter></li>
             <li class="value"></li>
+			<li class="channel"></li>
         </ul>
         <ul style="color: #147a66">
             <li class="name">AUX4</li>
             <li class="meter"><meter min="800" max="2200"></meter></li>
             <li class="value"></li>
+			<li class="channel"></li>
         </ul>
     </div>
     <div class="tunings">
@@ -62,6 +70,18 @@
                 <td><input type="number" name="expo" step="0.01" min="0" max="1" /></td>
             </tr>
         </table>
+		<table>
+			<tr>
+				<th>RX min value</th>
+				<th>RX mid value</th>
+				<th>RX max value</th>	
+			</tr>
+			<tr>
+				<th><input type="number" name="mincheck" step="1" min="1000" max="2000" /></th>
+				<th><input type="number" name="mirc" step="1" min="1000" max="2000" /></th>
+				<th><input type="number" name="maxcheck" step="1" min="1000" max="2000" /></th>
+			</tr>
+		</table>
         <a class="update" href="#">Save</a>
         <a class="refresh" href="#">Refresh</a>
     </div>
