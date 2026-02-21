@@ -6,7 +6,7 @@
     "license": "GPL-3.0",
     "main": "electron.js",
     "scripts": {
-        "start": "npx electron ."
+        "start": "node ./node_modules/electron/cli.js ."
     },
     "dependencies": {
         "serialport": "^13.0.0"
