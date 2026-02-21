@@ -1,0 +1,17 @@
+{
+    "name": "baseflight-configurator",
+    "version": "0.36.0",
+    "description": "Crossplatform configuration tool for Baseflight flight control system",
+    "author": "cTn",
+    "license": "GPL-3.0",
+    "main": "electron.js",
+    "scripts": {
+        "start": "node ./node_modules/electron/cli.js ."
+    },
+    "dependencies": {
+        "serialport": "^13.0.0"
+    },
+    "devDependencies": {
+        "electron": "^40.6.0"
+    }
+}
